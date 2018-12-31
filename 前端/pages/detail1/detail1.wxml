@@ -1,0 +1,5 @@
+<image class="banner" src='{{image}}'></image>
+<view class='block'>
+  <view class='block-title'>美食详情</view>
+  <text class='block-detail'>{{detail}}</text>
+</view>

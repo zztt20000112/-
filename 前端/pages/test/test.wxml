@@ -1,0 +1,29 @@
+<!--pages/test/test.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="vname">
+    <view class="name__title">名称：</view>
+   <view class="nam"> <input name="input" placeholder="" /></view>
+  </view>
+
+    <view class="vdescribe">
+    <view class="describe__title">描述：</view>
+    <view class="vdes"><input name="describe" placeholder="" /></view>
+  </view>
+
+    <view class="vdetail">
+    <view class="detail__title">详细信息：</view>
+    <view class="dea"><textarea name="detail"/></view>
+  </view>
+  
+ 
+  <view class="btn-area"> 
+    <button form-type="reset">上传图片</button>
+  </view>
+
+
+  <view class="btn-area">
+    <button form-type="submit">提交</button>
+  </view>
+</form>
+
+

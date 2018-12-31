@@ -1,0 +1,25 @@
+<!--index.wxml-->
+
+
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='pro-item' wx:for="{{proList}}" wx:for-item="item" bindtap="toDetail" wx:key='index' data-id='{{item.id}}' data-detail='{{item.detail}}' data-index='{{item.index}}'>
+  <image class='pro-logo' src='{{item.imagePath}}'></image>
+  <view class='pro-body'>
+
+    <view class='pro-title'>{{item.title}}</view>
+    <text class='pro-desc'>{{item.desc}}</text>
+    <view class='pro-footer'>
+      <image class="btn-detail" src='/images/details.png'>
+      </image>
+    </view>
+  </view>
+
+</view>

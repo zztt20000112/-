@@ -1,0 +1,45 @@
+/* pages/test/test.wxss */
+.vdes{
+    border:  1px solid #ddd;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 15px;
+    
+    height: 60rpx;
+}
+.dea{
+ background-color: #ffffff;
+  text-align: left;
+  width: 650rpx;
+  height: 300rpx;
+  line-height: 20rpx;
+  padding: 0 20rpx;
+  margin-left: 10px;
+  margin-right: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.nam{
+    border:  1px solid #ddd;
+    border-radius: 3px;
+    height: 60rpx;
+    margin-left: 10px;
+    margin-right: 15px;
+    
+
+}
+.name__title{
+  font-size:0.55cm;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.detail__title{
+  font-size:0.55cm;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.describe__title{
+  font-size:0.55cm;
+  margin-left: 10px;
+  margin-right: 15px;
+}
